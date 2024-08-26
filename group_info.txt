@@ -1,7 +1,7 @@
 Group Name: Dracarys
 Group Members:
 1.Name:  , Id: 21225103137  , Intake:49 , Section:4
-2.Name:  , Id: 21225103150  , Intake:49 , Section:4
+2.Name: Rokaiya Zaman suthi , Id: 21225103150  , Intake:49 , Section:4
 3.Name: Mohiuddin Murad  , Id: 21225103160  , Intake:49 , Section:4
 4.Name:  , Id: 21225103161  , Intake:49 , Section:4
 5.Name:  , Id: 21225103469  , Intake:49 , Section:4
