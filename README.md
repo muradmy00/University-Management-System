@@ -52,7 +52,7 @@ Step 1: Clone the Repository
 bash
 Copy code: 
 
-git clone https://github.com/your-username/university-management-system.git
+git clone https://github.com/muradmy00/University-Management-System/tree/main?tab=readme-ov-file
 
 cd university-management-system
 
