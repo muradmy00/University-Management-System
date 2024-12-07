@@ -7,8 +7,10 @@ The University Management System is a Java-based desktop application designed to
 **Features**
 
 Student Management:
+
 Add, update, view, and student records.
 View student result marks and leave details.
+
 
 Faculty Management:
 
@@ -35,6 +37,7 @@ Prerequisites
 
 
 
+
 Before you begin, ensure you have the following installed on your system:
 
 Java Development Kit (JDK): Version 8 or higher.
@@ -47,12 +50,14 @@ Follow these steps to set up the University Management System on your local mach
 
 
 
+
 Step 1: Clone the Repository
 
-bash
+
 Copy code: 
 
 git clone https://github.com/muradmy00/University-Management-System/tree/main?tab=readme-ov-file
+
 
 cd university-management-system
 
@@ -60,13 +65,14 @@ cd university-management-system
 Step 2: Configure the Database
 
 Open your MySQL server and create a new database:
+
 sql
+
 Copy code
 CREATE DATABASE university_management;
 Import the database schema and sample data:
 
 
-bash
 Copy code
 
 mysql -u root -p university_management < db/schema.sql
@@ -93,10 +99,12 @@ Use Maven to build the project:
 Step 4: Run the Application
 Run the application using your IDE or via the command line:
 
-bash
+
 Copy code
 
 java -jar target/university-management-system-1.0.jar
+
+
 Usage
 
 
@@ -112,12 +120,19 @@ Password: 12345
 
 Login Screen: Enter credentials to access the system.
 
+**Login**
+
+<img src="src/icons/login.png" />
+
 
 **Dashboard:**
+
+<img src="src/icons/dashboard.png" />
 
 
 
 Include screenshots of key screens, such as the login screen, admin dashboard, and course management page.
+
 
 
 **Troubleshooting**
@@ -128,9 +143,13 @@ Database Connection Error:
 
 Ensure MySQL is running and the credentials in config.properties are correct.
 
+
+
 Build Failure:
 
 Check Maven dependencies and ensure all are resolved.
+
+
 
 UI Issues:
 
